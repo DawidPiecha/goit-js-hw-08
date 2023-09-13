@@ -38,8 +38,8 @@ a {
 .nav-button {
   border: 0;
   border-radius: 4%;
-  padding: 25px;
-  font-size: 3rem;
+  padding: 15px;
+  font-size: 1.5rem;
   margin-bottom: 15px;
   background-image: linear-gradient(to right, #005aa7, #fffde4);
   background-size: 300%;
