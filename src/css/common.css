@@ -10,9 +10,47 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: linear-gradient(to right, #005aa7, #fffde4);
+  background-size: 200%;
+  animation: bg-animation 5s infinite alternate;
+}
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.nav-button {
+  border: 0;
+  border-radius: 4%;
+  padding: 25px;
+  font-size: 3rem;
+  margin-bottom: 15px;
+  background-image: linear-gradient(to right, #005aa7, #fffde4);
+  background-size: 300%;
+  background-position: left;
+  transition: scale 0.5s;
+  margin: 20px;
+}
+.nav-button:hover,
+.nav-button:focus {
+  scale: 1.1;
+}
+.nav-button a {
+  color: wheat;
 }

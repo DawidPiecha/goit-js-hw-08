@@ -19,6 +19,7 @@ const galleryElements = galleryItems
 
 gallery.insertAdjacentHTML('beforeend', galleryElements);
 gallery.style.listStyleType = 'none';
+gallery.style.padding = '0';
 
 const options = {
   captionData: 'alt',
